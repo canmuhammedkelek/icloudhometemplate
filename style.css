@@ -1,0 +1,112 @@
+@font-face {
+    font-family: “Helvetica Medium”;
+    src: url(‘inc/fonts/HelveticaNeueMedium’) format(“truetype”);
+}
+
+body {
+    font-family: "SFUIText, Helvetica Neue", sans-serif;
+}
+
+.header {
+    display: flex;
+    color: white;
+    background-color: #323232;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.header .nav {
+    float: left;
+    margin: 12px;
+    font-size: 19px;
+}
+
+.menubar {
+    float: right;
+    margin-left: 83%;
+    display: flex;
+}
+
+.header .dropdown {
+    float: right;
+    margin-left: auto;
+    font-weight: 400;
+    font-size: 19px;
+    margin: 12px;
+}
+
+.droparrow {
+    width: 7%;
+}
+
+.profile-card {
+    padding: 85px;
+    padding-bottom: 25px;
+}
+
+.profile-avatar {
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    position: relative;
+    margin: auto;
+    background-image: url(inc/image/pp.JPG);
+    background-size: 140px;
+}
+
+.hi {
+    text-align: center;
+}
+
+.hi-text {
+    font-family: " SFUIDisplay,Helvetica Neue ", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #333;
+}
+
+.account-settings {
+    text-align: center;
+}
+
+.account-settings-text {
+    color: #007aff;
+    text-decoration: none;
+}
+
+.itemareafirst {
+    padding-left: 20%;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+
+.items {
+    float: left;
+}
+
+.item {
+    align-items: center;
+    margin-left: 51px;
+    text-align: center;
+}
+
+.item-img {
+    width: 120px;
+    height: 100px;
+}
+
+.itemareatwo {
+    padding-top: 40px;
+    padding-left: 20%;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
